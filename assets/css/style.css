@@ -734,6 +734,76 @@ main { overflow-x: hidden; }
 
 
 
+/*-----------------------------------*\
+ * #EXPERIENCE
+\*-----------------------------------*/
+
+.left-section {
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--shadow-1);
+
+}
+
+.work-experience {
+  padding-block: var(--section-padding);
+  box-shadow: #303030;
+}
+
+.work-entry {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.work-content {
+  flex: 1; /* To fill the available space in the flex container */
+}
+
+.description-box {
+  border: px solid #ccc;
+  display: flex; /* Use flexbox for the container */
+  background-color: #303030;
+  border-radius: 10px;
+}
+
+.left-section,
+.right-section {
+  flex: 1; /* Equal width for both sections */
+  padding: 10px; /* Padding as needed */
+}
+
+/* Border between left and right sections */
+.left-section {
+  border-right: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Width of the left and right sections */
+.left-section {
+  flex: 20%; /* Percentage as needed */
+  background-color: #9e9e9e;
+}
+
+.right-section {
+  flex: 60%; /* Percentage as needed */
+  border-radius: 10px;
+}
+
+
+
+.left-section .section-text {
+color: #303030;
+font-size: 20px;
+padding-left: 30px;
+}
+
+
+
+
+
+
+
 
 /*-----------------------------------*\
  * #CONTACT
@@ -1264,6 +1334,22 @@ textarea.input-field {
   }
 
 
+  /**
+   * EXPERIENCE
+   */
+  .right-section .section-text {
+  color: #ffffff;
+  }
+  
+  .right-section .section-title {
+    color: #ffffff;
+  }
+
+
+
+
+
+   
 
   /**
    * CONTACT
