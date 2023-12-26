@@ -798,6 +798,9 @@ font-size: 20px;
 padding-left: 30px;
 }
 
+.right-section .section-title {
+  max-width: 100%;
+}
 
 
 
