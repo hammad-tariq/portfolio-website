@@ -575,8 +575,9 @@ main { overflow-x: hidden; }
 
 
 /*-----------------------------------*\
- * #SKILLS
+ * #SKILLS AND TOOLS (BUTTON)
 \*-----------------------------------*/
+
 
 .skills { padding-block: var(--section-padding); }
 
@@ -622,7 +623,7 @@ main { overflow-x: hidden; }
 
 .toggle-btn.active { color: var(--white); }
 
-.skills-box.active .skills-list,
+.skills-box.active .skills-list2,
 .skills-box .tools-list { display: none; }
 
 .skills-box .skills-list,
@@ -657,6 +658,53 @@ main { overflow-x: hidden; }
 .skill-card:hover .tooltip {
   transform: translateY(0);
   opacity: 1;
+}
+
+
+/*-----------------------------------*\
+ * #SKILLS
+\*-----------------------------------*/
+
+.skills-list2 {
+  background-color: #303030;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-1);
+}
+
+.professional-skill {
+  margin-bottom: 20px;
+}
+
+.skill-bar {
+  background-color: #9e9e9e;
+  height: 20px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  color: #1f1f1f;
+  position: center;
+  text-align: right;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 100%;
+  background-color: #e38445; /* progress bar color according to our theme */
+}
+
+
+.skill-title {
+  color: #9e9e9e;
+  font-weight: bold;
 }
 
 
@@ -762,9 +810,10 @@ main { overflow-x: hidden; }
 
 .description-box {
   border: px solid #ccc;
-  display: flex; /* Use flexbox for the container */
+  display: flex; /* flexbox for the container */
   background-color: #303030;
-  border-radius: 10px;
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-1);
 }
 
 .left-section,
@@ -794,12 +843,14 @@ main { overflow-x: hidden; }
 
 .left-section .section-text {
 color: #303030;
-font-size: 20px;
+font-size: 17px;
 padding-left: 30px;
 }
 
 .right-section .section-title {
   max-width: 100%;
+  font-size: 25px;
+  padding-top: 5px;
 }
 
 
