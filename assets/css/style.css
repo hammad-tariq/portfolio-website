@@ -775,7 +775,6 @@ main { overflow-x: hidden; }
   background: var(--bg-secondary);
   display: flex;
   align-items: center;
-  box-shadow: var(--shadow-1);
 
 }
 
