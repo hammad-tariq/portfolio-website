@@ -681,6 +681,12 @@ main { overflow-x: hidden; }
   column-count: 2;        /*two columns in list**/
 }
 
+::marker{
+  color: #e38445;
+}
+
+
+
 .professional-skill {
   margin-bottom: 20px;
 }
