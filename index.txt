@@ -1,11 +1,9 @@
-Jack - personal portfolio
+Hammad Tariq | Senior Mobile App Developer | Flutter | Native Android, iOS | React-Native
 
-# HEDER
+# HEADER
 
-Jack.
+Hammad Tariq.
 
-En
-Ar
 
 aria-label = Change Theme
 title = Change Theme
@@ -29,14 +27,14 @@ We Design & Build Creative Products
 
 Get in touch
 
-<ion-icon name="logo-facebook"></ion-icon>
-Facebook
+<ion-icon name="logo-LinkedIn"></ion-icon>
+LinkedIn
 
-<ion-icon name="logo-twitter"></ion-icon>
-Twitter
+<ion-icon name="logo-Githib"></ion-icon>
+Github
 
-<ion-icon name="logo-linkedin"></ion-icon>
-Linkedin
+<ion-icon name="logo-Stackover Flow"></ion-icon>
+Stackover flow
 
 Scroll
 
@@ -46,19 +44,19 @@ Scroll
 
 alt = Badge icon
 
-12+
+7+
 Years of Experience
 
 <ion-icon name="chevron-forward-outline"></ion-icon>
 
 alt = Checkmark icon
 
-230+
+20+
 Completed Projects
 
 alt = Peoples rating icon
 
-95+
+20+
 Happy Clients
 
 
@@ -69,10 +67,9 @@ alt = A man in a alice blue shirt with a thinking expression
 
 About me
 
-Need a Creative Product? I can Help You!
+Need a Mobile App? Let me craft your creative solution!
 
-Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
-
+Bringing over 7+ of hands-on experience, I am a seasoned Mobile App Developer with expertise in Flutter, iOS App Development using Swift, and Native Android Development with Kotlin. My proficiency extends to critical areas such as Payment integration's, Firebase functionalities, CI/CD Pipelines, API integration’s and app publishing.
 Hire me
 
 Download cv
@@ -85,71 +82,70 @@ My skills
 
 What My Programming Skills Included?
 
-I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.
+Hammad Tariq is an all-around Mobile Developer who is passionate about learning latest technologies and trends and he is currently open to work.
 
 Skills
 Tools
 
-HTML5
-alt = HTML5 logo
+Mobile App dev
 
-CSS3
-alt = CSS3 logo
 
-JavaScript
-alt = JavaScript logo
+FLUTTER DEV
 
-TypeScript
-alt = TypeScript logo
 
-jQuery
-alt = jQuery logo
+KOTLIN
 
-Bootstrap
-alt = Bootstrap logo
 
-Angular
-alt = Angular logo
+DART
 
-React
-alt = React logo
 
-Vue
-alt = Vue logo
+FIREBASE
+
+
+BACKEND DEV
+
+
+NATIVE ANDROID/ iOS DEV
+
+
+CI/CD
+
+
+GITHUB ACTIONS
+
+
+JAVA
+
+
+DI(DAGGER-2)
+
+
+
+
+Flutter
+alt = Flutter logo
+
+
+Dart
+alt = Dart logo
 
 Firebase
 alt = Firebase logo
 
-PugJs
-alt = PugJs logo
-
-SASS
-alt = SASS logo
-
-
-Ajax
-alt = Ajax logo
-
-Gulp
-alt = Gulp logo
-
-Webpack
-alt = Webpack logo
-
 Git
 alt = Git logo
 
-Npm
-alt = Npm logo
+Java
+alt = Java logo
 
-Command Line
-alt = Command Line logo
+Playstore
+alt = Playstore logo
 
 VS Code
 alt = VS Code logo
 
-Trello
-alt = Trello logo
+X Code
+alt = X Code logo
 
 ClickUp
 alt = ClickUp logo
@@ -157,12 +153,35 @@ alt = ClickUp logo
 Slack
 alt = Slack logo
 
-Photoshop
-alt = Photoshop logo
+Spring boot
+alt = Spring boot logo
 
-Adobe XD
-alt = Adobe XD logo
+Android iOS
+alt = Android iOS logo
 
+Jira
+alt = Jira logo
+
+Jenkins
+alt = Jenkins logo
+
+Azure
+alt = Azure logo
+
+Swift
+alt = Swift logo
+
+Kotlin
+alt = Kotlin logo
+
+Fastlane
+alt = Fastlane logo
+
+App store
+alt = App store logo
+
+CI CD
+alt = CI CD logo
 
 
 # WOKRS
@@ -171,29 +190,32 @@ My Works
 
 See My Works Which Will Amaze You!
 
-We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.
+I specialize in developing high-quality mobile apps, featuring user-friendly interfaces that cater to both technical and non-technical users for a seamless experience.
 
 alt = A macintosh on a yellow background.
-Lorem Ipsum Dolor 01
+Mock First Application
 April 2022
 
 alt = On a Blue background, a Wacom and a mouse.
-Lorem Ipsum Dolor 02
+Zain Application
 
 alt = A Cassette tape on a mellow apricot background.
-Lorem Ipsum Dolor 03
+My Telenor App
 
 alt = Blue digital watch on a dark liver background.
-Lorem Ipsum Dolor 04
+Farm To Home
 
 alt = On a dark liver background, Airport luggage car carrying a luggage.
-Lorem Ipsum Dolor 05
+Dukaantek
 
 alt = On a yellow background, a digital watch and a glass.
-Lorem Ipsum Dolor 06
+Eaisypaisa Application
 
 alt = A fujifilm instant camera on a dark electric blue background.
-Lorem Ipsum Dolor 07
+Korek
+
+alt = A fujifilm instant camera on a dark electric blue background.
+Zand Bank
 
 Load more work
 
@@ -203,28 +225,26 @@ Load more work
 
 Contact
 
-Have You Any Project? Please Drop a Message
+Have a project in mind? Please Drop a Message
 
 Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
 
 <ion-icon name="location-outline"></ion-icon>
 Address:
-941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+Islamabad, Pakistan
 
 <ion-icon name="call-outline"></ion-icon>
 Phone:
-(01) 234 567 789
-(09) 765 432 200
+(+92) 333 845 6598
 
 <ion-icon name="mail-outline"></ion-icon>
 Email:
-info@jack.com
-support@jack.com
+hammadtariq.me@gmail.com
 
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-<ion-icon name="logo-youtube"></ion-icon>
+<ion-icon name="logo-LinkedIn"></ion-icon>
+<ion-icon name="logo-Github"></ion-icon>
+<ion-icon name="logo-Slackover flow"></ion-icon>
+
 
 Name
 <ion-icon name="person-circle"></ion-icon>
@@ -248,9 +268,9 @@ Send
 
 # FOOTER
 
-Jack.
+Hammad Tariq.
 
-&copy; 2022 codewithsadee. All rights reserved
+© 2023 Hammad Tariq. All rights reserved
 
 
 

@@ -108,9 +108,8 @@ if (localStorage.getItem("theme") === "light_theme") {
 
 
 /**
-Chatbot & Openai
+Chatbot
 **/
-// chatbot.js
 
 window.embeddedChatbotConfig = {
   chatbotId: "yo8iYojRgfCLzCubEuUUl",

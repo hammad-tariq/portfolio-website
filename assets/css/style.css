@@ -487,7 +487,12 @@ main { overflow-x: hidden; }
   margin-bottom: 30px;
 }
 
-.hero .btn-primary { margin-inline: auto; }
+.hero .btn-primary { 
+  margin-inline: auto;
+  background-color: #9e9e9e;
+  color: #000000;
+
+}
 
 
 
@@ -856,6 +861,7 @@ padding-left: 30px;
 
 
 
+
 /*-----------------------------------*\
  * #CONTACT
 \*-----------------------------------*/
@@ -1051,7 +1057,6 @@ textarea.input-field {
 
 
 
-
 /*-----------------------------------*\
  * #MEDIA QUERIES
 \*-----------------------------------*/
@@ -1072,7 +1077,6 @@ textarea.input-field {
   }
 
   .section-title { max-width: 380px; }
-
 
 
   /**
