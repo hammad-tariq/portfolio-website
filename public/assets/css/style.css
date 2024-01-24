@@ -1046,6 +1046,11 @@ textarea.input-field {
 
 
 
+.alert.success p {
+  align-self: center;
+  color: #e38445;
+}
+
 
 
 /*-----------------------------------*\
@@ -1522,7 +1527,7 @@ textarea.input-field {
   .contact-form { width: 100%; }
 
   .contact-list { margin-left: -40px; }
-
+  
 
 
   /**

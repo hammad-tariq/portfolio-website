@@ -36,6 +36,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
     <script src="assets/js/script.js" defer></script>
 
+
+
+  <!--
+    Contact form
+  -->
+
+  
+ <!--Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+
+    <script src="\assets\js\script.js"></script>
+
+ <!--Email.js-->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init("wFTqdeccotKvFjv7d");  
+    </script>
+
+  <!--Recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
     
 </head>
 
@@ -244,7 +266,7 @@
       <section class="about" id="about">
 
         <figure class="about-banner">
-          <img src="./assets/images/hammadsbabout3.png" alt="A man in a alice blue shirt with a thinking expression"
+          <img src="./assets/images/hammadabout3.jpg" alt="A man in a alice blue shirt with a thinking expression"
             class="w-100">
         </figure>
 
@@ -766,6 +788,7 @@
 
     <!-- Work Experience Section -->
 
+
     <section class="work-experience" id="work-experience">
 
       <!-- Work Experience Entry 1 -->
@@ -956,7 +979,7 @@
         - #CONTACT
       -->
 
-      <section class="contact" id="contact">
+      <section class="contact" id="contactForm">
 
         <div class="contact-content section-content">
 
@@ -1050,7 +1073,9 @@
 
         </div>
 
-        <form action="" class="contact-form">
+
+
+        <form action=""  class="contact-form" id="contactform">
 
           <div class="form-wrapper">
 
@@ -1110,9 +1135,19 @@
 
           </div>
 
-          <button type="submit" class="btn btn-primary">Send</button>
 
+          <div class="g-recaptcha" data-sitekey="6LdutFopAAAAAObs3ImiGdjbRpzYtc0fGMx803yq"></div>
+
+
+          <button type="submit" value="submit" class="btn btn-primary" id="submit">Send</button>
+          <div class="alert success" style="display:none;">
+            <p>Your message has been successfully submitted!</p>
+
+          </div>
         </form>
+
+
+
 
       </section>
 
