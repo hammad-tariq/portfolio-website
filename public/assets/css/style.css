@@ -441,7 +441,7 @@ body.active { overflow: hidden; }
 .navbar-link::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 80%;
   transform: translateY(-50%);
   left: 0;
   height: 5px;
@@ -495,7 +495,12 @@ main { overflow-x: hidden; }
   margin-inline: auto;
   background-color: #9e9e9e;
   color: #000000;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
+}
+
+.hero .btn-primary:hover {
+  transform: scale(1.1);
 }
 
 
@@ -577,11 +582,15 @@ main { overflow-x: hidden; }
 .about .btn {
   max-width: unset;
   width: 100%;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .about .btn-secondary { margin-bottom: 10px; }
 
+.about .btn:hover {
+   transform: scale(1.1) ;
 
+}
 
 
 
@@ -857,7 +866,7 @@ main { overflow-x: hidden; }
 /* Width of the left and right sections */
 .left-section {
   flex: 20%; /* Percentage as needed */
-  background-color: #9e9e9e;
+  background-color: #e38445;
 }
 
 .right-section {
@@ -1057,6 +1066,45 @@ textarea.input-field {
   padding-bottom: 20px;
 }
 
+.book-meeting {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 0px;
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e38445;
+  border-radius: 5px;
+  color: black;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.book-meeting:hover {
+  transform: scale(1.1);
+  color: #ffffff !important;
+}
+
+
+.book-meeting-button{
+  color: #000000;
+  font-weight: 700;
+}
+
+
+
+/* Mobile-specific styles for book meeting button */
+@media only screen and (max-width: 700px) {
+
+  .book-meeting:hover {
+    transform: none;
+  }
+
+}
+
+
+
 
 
 
@@ -1128,6 +1176,7 @@ textarea.input-field {
 --*/
 #chatbase-bubble-button{
   margin-bottom: 100px !important;
+  margin-right: 5px;
 }
 #chatbase-bubble-window{
   margin-right: 60px;
