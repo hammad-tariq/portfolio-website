@@ -112,13 +112,13 @@ Chatbot
 **/
 
 window.embeddedChatbotConfig = {
-  chatbotId: "",
+  chatbotId: "dYUbkJ3PBxZ9fTZch92Da",
   domain: "www.chatbase.co"
 };
 
 const scriptElement = document.createElement("script");
 scriptElement.src = "https://www.chatbase.co/embed.min.js";
-scriptElement.chatbotId = "";
+scriptElement.chatbotId = "dYUbkJ3PBxZ9fTZch92Da";
 scriptElement.domain = "www.chatbase.co";
 scriptElement.defer = true;
 
